@@ -1,0 +1,31 @@
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/vcs.xml	(date 1578487835803)
++++ .idea/vcs.xml	(date 1578487835803)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: src/com/company/gusse_the_number/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/com/company/gusse_the_number/Main.java	(revision dfa99a3fa7116801b1393b35edf13c93d0f0b6f2)
++++ src/com/company/gusse_the_number/Main.java	(date 1578488616348)
+@@ -77,7 +77,7 @@
+         String word = words[indWord];
+         int lenWord = word.length();
+         System.out.println("Попробуй отгадать слово которое я загадал?");
+-        System.out.println(word);
++        System.out.println();
+         Scanner scanner = new Scanner(System.in);
+         do {
+             System.out.println("Введи свой ответ:");

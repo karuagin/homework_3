@@ -77,7 +77,7 @@ public class Main {
         String word = words[indWord];
         int lenWord = word.length();
         System.out.println("Попробуй отгадать слово которое я загадал?");
-        System.out.println(word);
+        System.out.println();
         Scanner scanner = new Scanner(System.in);
         do {
             System.out.println("Введи свой ответ:");
