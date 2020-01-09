@@ -82,7 +82,6 @@ public class Main {
         do {
             System.out.println("Введи свой ответ:");
             String answer = scanner.nextLine();
-            //если нам надоес играть то мы выйдем
             if (answer.equals("")) break;
             else if (word.equals(answer)) {
                 System.out.println("Вы угадали слово, игра закончена!!!");
